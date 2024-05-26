@@ -1,0 +1,11 @@
+name: bert-env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - transformers
+    - datasets
+    - torch
+    - azureml-core
